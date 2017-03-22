@@ -1,0 +1,54 @@
+/* Cronjobs module */
+.aiowaff-form .aiowaff-form-row.aiowaff-cj-help {
+	padding-top: 10px;	
+}
+
+.aiowaff-cj-list #aiowaff-cj-table .aiowaff-row-loading-marker {
+    position: relative;
+    left: 5px;
+    top: -5px;
+    padding: 0;
+}
+.aiowaff-cj-list #aiowaff-cj-table .aiowaff-row-loading {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 1000;
+	width: 100%;
+	height: 100%;
+	margin-left: -10px;
+	margin-top: -12px;
+	padding: 0px;
+	background-color: #484848;
+	background-color: rgba(207, 222, 247, 0.8);
+}
+
+.aiowaff-cj-list {
+	position: relative;
+}
+	.aiowaff-cj-list #aiowaff-main-loading {
+		top: 0;
+		left: 0;
+	}
+		.aiowaff-cj-list #aiowaff-main-loading #aiowaff-loading-box {
+			top: 50px;
+		}
+.aiowaff-cj-list #aiowaff-cj-reload {
+	float: right;
+	margin-bottom: 5px;
+}
+.aiowaff-cj-list #aiowaff-cj-table {
+	width: 100%;
+	border-collapse: collapse;
+}
+	.aiowaff-cj-list #aiowaff-cj-table, #aiowaff-cj-table th, #aiowaff-cj-table td {
+		border: 1px solid green;
+		text-align: left;
+		vertical-align: bottom;
+	}
+	.aiowaff-cj-list #aiowaff-cj-table th, #aiowaff-cj-table td {
+		padding: 5px;
+	}
+	.aiowaff-cj-list #aiowaff-cj-table tr.cut td:first-child {
+		text-decoration: line-through;
+	}

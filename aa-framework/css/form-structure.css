@@ -1,0 +1,224 @@
+.aiowaff-form .aiowaff-button-row:after, .aiowaff-form .aiowaff-form-row:after, .aiowaff-form:after, .aiowaff-form-item:after, .aiowaff-form ul.aiowaff-form-list:after {
+	clear: both;
+	content: ' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0
+}
+* html .aiowaff-button-row, * html .aiowaff-form-row, * html .aiowaff-form, * html .aiowaff-form-item, * html .aiowaff-form ul.aiowaff-form-list {
+	height: 1%
+}
+.aiowaff-form .aiowaff-form-row {
+	padding: 23px 16px;
+	display: block;
+	border-bottom: 1px solid #f2f2f2
+}
+.aiowaff-form .aiowaff-form-row:last-child {
+	border-bottom: 0
+}
+.aiowaff-form .aiowaff-button-row {
+	background-color: #e5e9ea;
+	border-top: 1px solid #dddddd;
+	margin: 0;
+	padding: 12px;
+	margin-top: -1px;
+	text-align: right;
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,1)
+}
+.aiowaff-form .aiowaff-form-col-1-8 label, .aiowaff-form .aiowaff-form-col-2-8 label, .aiowaff-form .aiowaff-form-col-3-8 label, .aiowaff-form .aiowaff-form-col-4-8 label, .aiowaff-form .aiowaff-form-col-5-8 label, .aiowaff-form .aiowaff-form-col-6-8 label, .aiowaff-form .aiowaff-form-col-7-8 label, .aiowaff-form .aiowaff-form-col-8-8 label {
+	white-space: nowrap;
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis
+}
+.aiowaff-form .aiowaff-form-col-1-8, .aiowaff-form .aiowaff-form-col-2-8, .aiowaff-form .aiowaff-form-col-3-8, .aiowaff-form .aiowaff-form-col-4-8, .aiowaff-form .aiowaff-form-col-5-8, .aiowaff-form .aiowaff-form-col-6-8, .aiowaff-form .aiowaff-form-col-7-8, .aiowaff-form .aiowaff-form-col-8-8 {
+	float: left;
+	padding: 0 .5%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-khtml-box-sizing: border-box
+}
+.aiowaff-form .aiowaff-form-col-1-8.alpha, .aiowaff-form .aiowaff-form-col-2-8.alpha, .aiowaff-form .aiowaff-form-col-3-8.alpha, .aiowaff-form .aiowaff-form-col-4-8.alpha, .aiowaff-form .aiowaff-form-col-5-8.alpha, .aiowaff-form .aiowaff-form-col-6-8.alpha, .aiowaff-form .aiowaff-form-col-7-8.alpha, .aiowaff-form .aiowaff-form-col-8-8.alpha {
+	padding-left: 0;
+	clear: left
+}
+.aiowaff-form .aiowaff-form-col-1-8.omega, .aiowaff-form .aiowaff-form-col-2-8.omega, .aiowaff-form .aiowaff-form-col-3-8.omega, .aiowaff-form .aiowaff-form-col-4-8.omega, .aiowaff-form .aiowaff-form-col-5-8.omega, .aiowaff-form .aiowaff-form-col-6-8.omega, .aiowaff-form .aiowaff-form-col-7-8.omega, .aiowaff-form .aiowaff-form-col-8-8.omega {
+	padding-right: 0;
+	clear: right
+}
+.aiowaff-form .aiowaff-form-col-1-8 {
+	width: 12.5%
+}
+.aiowaff-form .aiowaff-form-col-2-8 {
+	width: 25%
+}
+.aiowaff-form .aiowaff-form-col-3-8 {
+	width: 37.5%
+}
+.aiowaff-form .aiowaff-form-col-4-8 {
+	width: 50%
+}
+.aiowaff-form .aiowaff-form-col-5-8 {
+	width: 62.5%
+}
+.aiowaff-form .aiowaff-form-col-6-8 {
+	width: 75%
+}
+.aiowaff-form .aiowaff-form-col-7-8 {
+	width: 87.5%
+}
+.aiowaff-form .aiowaff-form-col-8-8 {
+	width: 100%
+}
+.aiowaff-form ul.aiowaff-form-list {
+	display: block;
+	width: 100% !important
+}
+.aiowaff-form ul.aiowaff-form-list.inline {
+	margin-bottom: 0
+}
+.aiowaff-form ul.aiowaff-form-list, .aiowaff-form ul.aiowaff-form-list li {
+	margin: 0;
+	line-height: normal;
+	list-style: none
+}
+.aiowaff-form ul.aiowaff-form-list {
+	margin-bottom: 4px
+}
+.aiowaff-form ul.aiowaff-form-list li {
+	margin-bottom: 4px
+}
+.aiowaff-form ul.aiowaff-form-list li:last-child {
+	margin: 0
+}
+.aiowaff-form ul.aiowaff-form-list.inline li {
+	float: left;
+	margin: 5px 10px 0 0
+}
+.aiowaff-form ul.aiowaff-form-list li input, .aiowaff-form ul.aiowaff-form-list li label {
+	float: none !important;
+	padding: 0;
+	margin: 0 2px 0 0;
+	width: auto !important;
+	display: inline !important;
+	vertical-align: middle !important
+}
+.aiowaff-form label {
+	cursor: pointer;
+	display: block
+}
+.aiowaff-form label .required {
+	color: #f00
+}
+.aiowaff-form fieldset {
+	margin-bottom: 0;
+	border-top: 1px solid #d3d3d3
+}
+.aiowaff-form fieldset legend {
+	padding: 4px 6px;
+	margin: 0 10px;
+	background-color: #fafafa;
+	border: 1px solid #d3d3d3
+}
+.aiowaff-form .aiowaff-form-item .errorMessage, .aiowaff-form .aiowaff-form-item label.error {
+	display: block;
+	color: #d44d24;
+	font-size: 11px;
+	width: 100% !important;
+	margin-top: 1px;
+	padding: 0 !important
+}
+.aiowaff-form .aiowaff-form-item .formNote {
+	display: block;
+	color: #b9b9b9;
+	font-size: 11px;
+	margin-bottom: 1px;
+	font-style: italic;
+	margin-top: -17px;
+	text-align: right;
+	overflow: hidden;
+	text-overflow: ellipsis
+}
+.aiowaff-form .aiowaff-form-item a.formNote {
+	color: #73991f
+}
+.aiowaff-form .aiowaff-form-item .formNote.left {
+	text-align: left
+}
+.aiowaff-form .aiowaff-form-row .aiowaff-form-item {
+	position: relative
+}
+.aiowaff-form .aiowaff-form-row .aiowaff-form-item > *, .aiowaff-form .aiowaff-form-row .aiowaff-form-item.default > * {
+	width: 70%
+}
+.aiowaff-form .aiowaff-form-row .aiowaff-form-item.small > * {
+	width: 35%
+}
+.aiowaff-form .aiowaff-form-row .aiowaff-form-item.large > * {
+	width: 100%
+}
+.aiowaff-form .aiowaff-form-row, .aiowaff-form .aiowaff-form-inline .aiowaff-form-row, .aiowaff-form .aiowaff-form-row.aiowaff-form-inline {
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box
+}
+.aiowaff-form .aiowaff-form-row label, .aiowaff-form .aiowaff-form-inline .aiowaff-form-row label, .aiowaff-form .aiowaff-form-row.aiowaff-form-inline label {
+	float: left;
+	width: 180px;
+	padding: 6px 0
+}
+.aiowaff-form .aiowaff-form-row .aiowaff-form-item, .aiowaff-form .aiowaff-form-inline .aiowaff-form-row .aiowaff-form-item, .aiowaff-form .aiowaff-form-row.aiowaff-form-inline .aiowaff-form-item {
+	margin-left: 180px;
+}
+.aiowaff-form .aiowaff-form-block .aiowaff-form-row, .aiowaff-form .aiowaff-form-row.aiowaff-form-block {
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box
+}
+.aiowaff-form .aiowaff-form-block .aiowaff-form-row label, .aiowaff-form .aiowaff-form-row.aiowaff-form-block label {
+	float: none;
+	width: auto;
+	display: block;
+	padding: 0 0 6px 0
+}
+.aiowaff-form .aiowaff-form-block .aiowaff-form-row .aiowaff-form-item, .aiowaff-form .aiowaff-form-row.aiowaff-form-block .aiowaff-form-item {
+	margin: 0;
+	display: block
+}
+@media only screen and (max-width: 768px) {
+	.aiowaff-form .aiowaff-form-row label, .aiowaff-form .aiowaff-form-inline .aiowaff-form-row label, .aiowaff-form .aiowaff-form-row.aiowaff-form-inline label {
+		clear: both;
+		float: none;
+		width: auto;
+		padding: 0 0 6px 0
+	}
+	.aiowaff-form .aiowaff-form-row .aiowaff-form-item, .aiowaff-form .aiowaff-form-inline .aiowaff-form-row .aiowaff-form-item, .aiowaff-form .aiowaff-form-row.aiowaff-form-inline .aiowaff-form-item {
+		clear: both;
+		float: none;
+		margin: 0
+	}
+	.aiowaff-form .aiowaff-form-item .formNote {
+		text-align: left;
+		margin-top: auto
+	}
+}
+@media only screen and (max-width: 480px) {
+	.aiowaff-form .aiowaff-form-row {
+		padding: 12px
+	}
+	.aiowaff-form .aiowaff-button-row {
+		padding: 8px
+	}
+	.aiowaff-form .aiowaff-form-item .errorMessage, .aiowaff-form .aiowaff-form-item label.error {
+		margin: 1px 0 0 0
+	}
+}

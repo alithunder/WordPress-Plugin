@@ -1,0 +1,97 @@
+div#aiowaff-ajaxLoadingBox-auto {
+	background: #fff url("assets/ajax-loader.gif") no-repeat 10px center;
+	background-color: #484848;
+	background-color: rgba(255, 255, 255, 0.8);/*rgba(207, 222, 247, 0.8);*/
+	position: absolute;
+	top: 0px;
+	z-index: 1000;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+div#aiowaff-ajaxLoadingBox-auto > div {
+	width: 60px;
+	position: absolute;
+	top: 56%;
+	left: 35px;
+	margin-top: -20px;
+}
+		
+.aiowaffPriceSelectButtons {
+	position: relative;	
+}
+
+.aiowaff_price .aiowaffPriceSelectButtons input {
+	width:30% !important;
+	margin-bottom: 5px !important;
+	float: left !important;
+}
+.aiowaff_price .aiowaffPriceSelectButtons ul li > label {
+	width:90% !important;
+}
+.wp-core-ui .button-group.button-large .button, .wp-core-ui .button.button-large {
+	padding:0 2px 0 2px;
+}
+
+
+.aiowaff-priceselect-wrapper {
+	margin-left: 7px;
+	float: left !important;
+}
+	.aiowaff-priceselect-wrapper a {
+		text-decoration: none;
+		padding: 2px 3px;
+	}
+	
+	.aiowaffPriceSelectWrapper {
+		margin: 15px 0px;
+	}
+	
+	#aiowaffPriceSelect {
+	}
+	#aiowaffPriceSelect > label {
+		text-decoration: underline;
+	}
+		#aiowaffPriceSelect ul {
+			list-style: none;
+			padding: 0px;
+		}
+			#aiowaffPriceSelect ul > li,
+			#aiowaffPriceSelect ul > label {
+        		margin-left: 30px;
+      			padding: 3px 0px 0px;
+      		}
+      		#aiowaffPriceSelect ul label {
+				font-style: italic;
+				font-weight: normal;
+				vertical-align: top;
+      		}
+      		#aiowaffPriceSelect > ul > li,
+      		#aiowaffPriceSelect > ul > label {
+      			margin-left: 0px;
+      		}
+			
+			#aiowaffPriceSelect ul li .aiowaff-priceselect-price {
+				font-weight: bold;
+			}
+			#aiowaffPriceSelect ul li .aiowaff-priceselect-price span {
+				display: inline-block;
+			}
+			#aiowaffPriceSelect ul li .aiowaff-priceselect-price span > label {
+				margin-left: 15px;
+				margin-right: 5px;
+				padding: 2px 5px;
+				color: #fff;
+				font-style: normal;
+				font-weight: normal;
+			}
+			#aiowaffPriceSelect ul li .aiowaff-priceselect-price span label.aiowaff-price-regular {
+				background-color: #1abc9c;
+			}
+			#aiowaffPriceSelect ul li .aiowaff-priceselect-price span label.aiowaff-price-sale {
+				background-color: #3498db;
+			}
+			#aiowaffPriceSelect ul li .aiowaff-priceselect-price span input[type="radio"] {
+			}

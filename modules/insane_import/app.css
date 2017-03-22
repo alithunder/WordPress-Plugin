@@ -1,0 +1,1485 @@
+.aiowaff-insane-container {
+	background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 0 5px 0px 5px;
+    box-shadow: 0 0px 1px 0 rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+    position: relative;
+    clear: both;
+    width: 99%;
+    margin: 40px 0px 90px 0px;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    position: relative;
+    border: 0px solid red;
+}
+.aiowaff-insane-work-in-progress {
+    background: none repeat scroll 0 0 #FFFFFF;
+    box-shadow: 1px 3px 3px 0 rgba(0, 0, 0, 0.25);
+    height: 90px;
+    left: 50%;
+    position: absolute;
+    top: -20px;
+    width: 240px;
+    z-index: 99;
+    margin-left: -120px;
+    height: 0px;
+    overflow: hidden;
+}
+	.aiowaff-insane-work-in-progress .aiowaff-the-action {
+		position: absolute;
+		display: block;
+		width: 80%;
+		background: rgba(189, 195, 199, 0.2);
+		top: 50px;
+		left: 6%;
+		padding: 5px 10px 5px 10px;
+		text-align: center;
+	}
+	.aiowaff-insane-container .aiowaff-insane-buton-logs {
+	  position: absolute;
+	  bottom: -30px;
+	  right: -1px;
+	  /* width: 400px; */
+	  height: 20px;
+	  background-color: #ebebeb;
+	  color: #b4b4b4;
+	  padding: 4px 10px;
+	  text-align: center;
+	  cursor: pointer;
+	  /* box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.25); */
+	  border: 1px solid #e8e8e8;
+	}
+	.aiowaff-insane-container.aiowaff-insane-container-logs {
+		display: none;
+	}
+	.aiowaff-logs-open {
+		display: block;
+	}
+	.aiowaff-insane-container .aiowaff-insane-panel-headline {
+		position: absolute;
+		top: -42px;
+		height: 42px;
+		width: 100%; 
+	}
+		.aiowaff-insane-container .aiowaff-insane-panel-headline a {
+			display: inline-block;
+			padding: 0px 0px 0px 0px;
+			font-size: 14px;
+			background: #ebebeb;
+			color: #b4b4b4;
+			padding: 12px 22px 12px 22px;
+			margin: 0px 10px 0px 0px;
+			text-decoration: none;
+			border-radius: 5px 5px 0 0;
+			position: relative;
+			text-transform: uppercase;
+			height: 17px;
+			line-height: 22px;
+		}
+		.aiowaff-big-buttons {
+			margin-top: 75px;
+		}
+		.aiowaff-insane-container .aiowaff-insane-panel-headline.aiowaff-top-headline {
+			height: 90px;
+			top: -73px;
+		}
+		.aiowaff-insane-container .aiowaff-insane-panel-headline.aiowaff-top-headline a {
+			height: auto;
+			padding-top: 6px;
+			padding-bottom: 6px;
+		}
+			.aiowaff-insane-container .aiowaff-insane-panel-headline.aiowaff-top-headline a img {
+				width: 150px;
+				position: relative;
+				height: auto;
+			}
+			.aiowaff-insane-container .aiowaff-insane-panel-headline a span {
+				position: relative;
+				top: -4px;
+				left: 0px;
+				display: inline-block;
+				width: 12px;
+				height: 12px;
+				margin-right: 12px;
+			}
+				.aiowaff-insane-container .aiowaff-insane-panel-headline a img {
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: 20px;
+					height: 20px;
+					display: block;
+					z-index: 10;
+					max-width: none !important;
+				}
+		.aiowaff-insane-container .aiowaff-insane-panel-headline a:hover {
+			background: #8e44ad;
+			color: #fff;
+		}
+			.aiowaff-insane-container .aiowaff-insane-panel-headline.aiowaff-top-headline a:not(.on):hover {
+				background: #dcdcdc;
+			}
+		.aiowaff-insane-container .aiowaff-insane-panel-headline a:active {
+			outline: none; 
+		}
+		.aiowaff-insane-container .aiowaff-insane-panel-headline a.on {
+			background: #fff;
+			color: #66587e;
+			cursor: default;
+			box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
+		}
+			.aiowaff-insane-container .aiowaff-insane-panel-headline a.on:after {
+				content: " ";
+				position: absolute;
+				left: 0;
+				right: 0;
+				bottom: -2px;
+				height: 2px;
+				background: #fff;
+			}
+	.aiowaff-insane-container .aiowaff-insane-tabs-content {
+		padding: 20px;
+	}
+		.aiowaff-insane-container .aiowaff-insane-tabs-content .aiowaff-insane-tab-content {
+			display: none;
+		}
+			.aiowaff-insane-container .aiowaff-insane-tabs-content .aiowaff-insane-tab-content:first-child {
+				display: block;
+			}
+	/* ----------------------- Search products tab ----------------------- */
+	
+	/* Keywords, Category, Advanced */
+	.aiowaff-insane-tab-search-buttons {
+		list-style: none;
+		overflow: hidden;
+	}
+	.aiowaff-insane-tab-search-buttons > li {
+		display: block;	
+		float: left;
+		border: 1px solid #ede7f2;
+		border-radius: 3px;
+		color: #6c6681;
+		padding: 0 10px 0 3px;
+		position: relative;
+		width: 270px;
+		margin-right: 0px;
+	}
+		.aiowaff-search-completion {
+			background: none repeat scroll 0 0 #FFFFFF;
+		    border: 1px solid #EDE7F2;
+		    display: block;
+		    left: 35px;
+		    position: absolute;
+		    top: 38px;
+		    width: 212px;
+		    z-index: 999;
+		    overflow: hidden;
+		    display: none;
+		}
+			.aiowaff-search-completion li {
+				display: block;
+				width: 100%;
+				border-bottom: 1px solid #ede7f2;
+				padding: 6px 12px 6px 12px;
+				margin: 0px 0px 0px 0px !important;
+				cursor: pointer;
+			}
+				.aiowaff-search-completion li:hover {
+					background: #ecf0f1;
+				}
+				.aiowaff-search-completion li:last-child {
+					border-bottom: none;
+				}
+		.aiowaff-insane-tab-search-buttons li.button-block {
+			border: 0px solid red;
+		}
+			.aiowaff-insane-tab-search-buttons li.button-block input {
+				padding: 11px 13px 11px 13px;
+				border-radius: 3px;
+				font-size: 14px;
+				position: relative;
+				top: 0px;
+				left: -13px;
+			}
+			
+			.aiowaff-insane-tab-search-buttons > li select {
+				position: relative;
+				top: -2px;
+			}
+			.aiowaff-insane-tab-search-buttons > li span.aiowaff-choose-between {
+				position: absolute;
+			    right: -15px;
+				border: 1px solid #ede7f2;
+    			width: 0;
+    			height: 100%;
+    			margin: 0;
+    			padding: 0;
+			}
+		.aiowaff-insane-tab-search-buttons li:not(:last-child) {
+			margin-right: 30px;
+		}
+		.aiowaff-insane-tab-search-buttons li:last-child a, .aiowaff-insane-tab-search-buttons li:last-child a:hover {
+			text-decoration: none;
+			color: #6c6681;
+		}
+		.aiowaff-insane-tab-search-buttons li:last-child a i {
+			color: #bcb6d1;
+			padding-left: 110px;
+		}
+		.aiowaff-insane-tab-search-buttons li:last-child {
+			margin-left: 10px;
+		}
+	.aiowaff-insane-tab-search-buttons input {
+		border: none;
+		box-shadow: none;
+		color: #6c6681;
+	}
+	.aiowaff-insane-tab-search-buttons select {
+		width: 78%;
+	}
+		.aiowaff-insane-tab-search-buttons li > label {
+			vertical-align: top;
+		}
+		.aiowaff-insane-tab-search-buttons li span {
+			display: inline-block;
+			margin: 10px;	
+			border-right: 1px solid #ede7f2;
+			padding-right: 10px;
+			cursor: pointer;
+		}
+		.aiowaff-insane-tab-search-buttons .aiowaff-select-category-placeholder {
+			left: 48px;
+		    padding: 3px 10px;
+		    position: absolute;
+		    top: 4px;
+		    width: 221px;
+		    border: 1px solid #ede7f2;
+		}
+		.aiowaff-select-on-category {
+			width: 270px;
+		}
+		.aiowaff-category-selector {
+			border: 1px solid #ede7f2;
+			position: absolute;
+			background: #fff;
+			z-index: 999;
+			padding: 20px 20px 20px 20px;
+			top: 38px;
+			left: 33px;
+			width: 209px;
+			display: none;
+		}
+			.aiowaff-select-on-category:hover .aiowaff-category-selector {
+				display: block;
+			}
+			.aiowaff-category-selector label {
+				border: none;
+				width: 100%;
+				display: block;
+				border-bottom: 1px solid #ede7f2;
+				padding: 10px 0px 20px 0px;
+			}
+				.aiowaff-category-selector label:first-child {
+					padding-top: 0px;
+				}
+				.aiowaff-category-selector label:last-child {
+					border: none;
+				}
+				.aiowaff-category-selector label input {
+					border: 1px solid #ede7f2;
+					margin: 10px 0px 0px 0px;
+					width: 200px;
+				}
+				.aiowaff-category-selector label select {
+					border: 1px solid #ede7f2;
+					margin: 10px 0px 0px 0px;
+					width: 204px;
+				}
+				.aiowaff-category-selector label span {
+					border: none;
+					display: block;
+					width: 100%;
+					margin: 0px 0px 0px 0px;
+					padding: 0px 0px 0px 0px;
+					text-transform: uppercase;
+				}
+		
+	.aiowaff-insane-tab-product-search-results {
+		height: 156px;
+		overflow-x: scroll;
+		overflow-y: hidden;
+		position: absolute;
+		width: 66.2%;
+		float: left;
+		padding-right: 2.5%;
+	}
+	.WZC-keyword-attached.aiowaff-insane-bigscroll {
+		padding: 0px 0px 0px 0px;
+		margin: 0px 0px 0px 0px;
+	}
+	.aiowaff-insane-tabs-content .aiowaff-content-scroll {
+  		position: relative;
+  		width: 100%;
+	}
+		#aiowaff-queued-products {
+			position: relative;
+			min-height: 200px;
+			/*height: 200px;*/
+		}
+		#aiowaff-queued-message {
+			background-color: #e74c3c;
+			border: 1px solid #c0392b;
+		    color: #fff;
+		    left: 50%;
+		    padding: 10px;
+		    position: absolute;
+		    text-align: center;
+		    top: 30%;
+		    transform: translate(-50%, -30%);
+		    width: 79%;
+		    display: block;
+		}
+		.WZC-products-scroll-cointainer {
+			margin: 0px 0px 70px 0px;
+			width: 100%;
+			/*overflow: hidden;
+			position: absolute;
+			height: 134px;*/
+		}
+		#aiowaff-queued-products.aiowaff-open {
+			height: auto;
+		}
+			#aiowaff-queued-products.aiowaff-open .WZC-products-scroll-cointainer {
+				overflow: auto; /*overflow: visible;*/
+				position: relative;
+			}
+				#aiowaff-queued-products.aiowaff-open .WZC-products-scroll-cointainer ul.WZC-keyword-attached {
+					width: 100%;
+				}
+		#aiowaff-queued-products.aiowaff-close {
+			height: 200px;
+		}
+			#aiowaff-queued-products.aiowaff-close .WZC-products-scroll-cointainer {
+				overflow: auto;
+				position: absolute;
+			}
+		.WZC-keyword-attached {
+			display: block;
+			padding: 0px 0px 0px 0px;
+		}
+			.WZC-keyword-attached li {
+				width: 280px;
+				height: 81px;
+				display: inline-block;
+				overflow: hidden;
+				margin: 0px 10px 0px 0px;
+				padding: 15px 10px 15px 10px;
+				position: relative;
+				background: #fff;
+				border: 1px solid #bdc3c7;
+			}
+			.WZC-keyword-attached li.selected {
+			  background-color: #ecf0f1;
+			}
+			.WZC-keyword-attached li.imported {
+			  background-color: #2ecc71;
+			  border-color: #27ae60;
+			  color: #fff;
+		 	}
+		 		.WZC-keyword-attached li.imported a {
+		 			color: #fff;
+		 		}
+		 		.WZC-keyword-attached li.imported a.WZC-keyword-attached-url {
+		 			color: #fff;
+		 		}
+				
+				.WZC-keyword-attached li .aiowaff-checked-product {
+					float: left;
+					width: 40px;
+					display: block;
+					height: 75px;
+					text-align: center;
+				}
+					/* Checkbox styling */
+					.aiowaff-checked-product.squaredThree {
+						margin: 32px auto;
+						position: relative;
+						width: 20px;
+					}
+					.aiowaff-checked-product.squaredThree label {
+						width: 14px;
+						height: 14px;
+						cursor: pointer;
+						position: absolute;
+						top: 0;
+						left: 0;
+					}
+					.aiowaff-checked-product.squaredThree input[type="checkbox"],
+					.aiowaff-checked-product.squaredThree input[type="radio"] {
+						margin-bottom: -5px;	
+					}
+
+				.WZC-keyword-attached li a.WZC-keyword-attached-url {
+					text-decoration: none;
+					color: #444;
+				}
+				.WZC-keyword-attached li .WZC-keyword-attached-image {
+					float: left;
+					width: 77px;
+					display: block;
+					height: 77px;
+					background: #fff;
+					border: 1px solid #bdc3c7;
+					margin: 0px 10px 0px 0px;
+					text-align: center;
+				}
+					.WZC-keyword-attached li .WZC-keyword-attached-image img {
+						position: relative;
+						top: 50%;
+						-webkit-transform: translateY(-50%);
+						-ms-transform: translateY(-50%);
+						transform: translateY(-50%);
+					}
+				.WZC-keyword-attached li .WZC-keyword-attached-phrase span {
+					background: #95a5a6;
+					padding: 2px 6px 2px 6px;
+					color: #fff;
+				}
+				.WZC-keyword-attached li .WZC-keyword-attached-brand span {
+					font-weight: bold;
+				}
+				.WZC-keyword-attached li .WZC-keyword-attached-prices {
+					font-size: 11px;
+				}
+					.WZC-keyword-attached li .WZC-keyword-attached-prices del {
+						color: #A42500;
+						padding-right: 5px;
+					}
+				.WZC-keyword-attached li .WZC-keyword-attached-title {
+					padding: 0px 90px 0px 0px;
+					overflow: hidden;
+					white-space: nowrap;
+					text-overflow: ellipsis;
+				}
+				.WZC-keyword-attached li .WZC-keyword-attached-actions {
+					position: absolute;
+					top: 0px;
+					right: 10px;
+					width: 80px;
+					height: 75px; 
+					text-align: right;
+					padding: 25px 0px 0px 0px;
+				}
+					.WZC-keyword-attached li .WZC-keyword-attached-actions a {
+						width: 60px;
+						margin: 0px 0px 5px 0px;
+					}
+				.WZC-keyword-attached li > i {
+					position: absolute;
+					top: 0px;
+					right: 0px;
+					cursor: pointer;
+					background-color: #bdc3c7;
+					color: #fff;
+					padding: 5px;
+					font-size: 14px;
+					border-bottom: 1px solid #bdc3c7;
+					border-left: 1px solid #bdc3c7;
+				}
+					
+	/* Import stats */
+	.aiowaff-insane-tab-product-search-results-stats	{
+		background-color: #ecf0f1;
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 96%;
+		border-top: 1px solid #ede7f2;
+		font-size: 14px;
+		color: #9b9b9b;
+		padding: 20px 2% 25px 2%;
+		border-bottom-right-radius: 5px;
+		border-bottom-left-radius: 5px;
+	}
+	
+	#aiowaff-expand-all {
+		position: absolute;
+		top: 0px;
+		display: inline-block;
+		text-align: center;
+		padding: 27px 20px 27px 30px;
+		top: 0px;
+		right: 0px;
+		text-transform: uppercase;
+		color: #fff;
+		font-size: 16px;
+		background: #34495e;
+		text-decoration: none;
+		border-bottom-right-radius: 5px;
+	}
+		#aiowaff-expand-all i {
+			position: relative;
+			font-size: 20px;
+			left: -5px;
+			bottom: 0px;
+		}
+		#aiowaff-expand-all:hover {
+			background: #2c3e50;	
+		}
+	.aiowaff-stats-block {
+		margin: 0px 0 0 0;
+		display: inline-block;
+		color: #9b9b9b;
+		padding: 5px 10px 5px 0px;
+		position: relative;
+	}
+		.aiowaff-stats-block span {
+			display: inline-block;
+			border-radius: 3px;
+			color: #fff;
+			padding: 0 4px;
+			background-color: #d43c47;
+		}
+		.aiowaff-stats-block span span {
+			padding-left: 0px;
+		}
+		.aiowaff-stats-block:nth-of-type(2) span {
+			background-color: #ef5d2b;
+		}
+		.aiowaff-stats-block:nth-of-type(3) span {
+			background-color: #f1c40f;
+		}
+		.aiowaff-stats-block:nth-of-type(4) span {
+			background-color: #8dc106;
+		}
+		
+		.aiowaff-stats-block p {
+			position: absolute;
+			width: 100%;
+			font-size: 10px;
+			font-style: italic;
+			bottom: -22px;
+			left: 0px;
+		}
+	
+	/* Import parameters */
+	.aiowaff-insane-import-parameters {
+		display: inline-block;
+		width: 100%;
+		min-height: 500px;
+		position: relative;
+	}
+	
+		/* Estimated time */
+		.aiowaff-insane-import-parameters .aiowaff-insane-import-estimate {
+			width: 60%;
+			display: inline-block;
+			position: absolute;
+			top: 0;
+			right: 0;
+		}
+		.aiowaff-insane-import-ETA {
+			background: url("assets/hourglass.png") no-repeat scroll 8% 60% #8dc106;
+			border-radius: 4px;
+			color: #fff;
+			display: block;
+			font-size: 11px;
+			left: 30.5%;
+			position: relative;
+			width: 239px;
+		}
+			
+			.aiowaff-insane-import-ETA p {
+				padding: 13px 22px 15px 52px;
+			}
+			
+			.aiowaff-insane-import-ETA span {
+				font-weight: bold;
+				font-size: 14px;	
+			}
+			.aiowaff-insane-import-ETA-triangle {
+				border-color: #8dc106 transparent transparent;
+				border-style: solid;
+				border-width: 12px 8px 0 0;
+				height: 0;
+				left: 30%;
+				position: relative;
+				top: -17px;
+				transform: rotate(33deg);
+				width: 0;
+			}
+			
+			.aiowaff-insane-import-ETA-logo {
+				position: absolute;
+				top: 40%;
+				right: 4%;
+				width: 250px;
+				text-align: center;
+				background: #e8e8e8 none repeat scroll 0 0;
+				color: #fff;
+				font-weight: bold;
+				border-radius: 10px;
+				padding: 0 10px;
+			}
+				.aiowaff-insane-import-ETA-logo.aiowaff-insane-logo-level1 {
+					background-color: #d43c47;
+				}
+				.aiowaff-insane-import-ETA-logo.aiowaff-insane-logo-level2 {
+					background-color: #ef5d2b;
+				}
+				.aiowaff-insane-import-ETA-logo.aiowaff-insane-logo-level3 {
+					background-color: #ff8a28;
+				}
+				.aiowaff-insane-import-ETA-logo.aiowaff-insane-logo-level4 {
+					background-color: #a5da1d;
+				}
+				.aiowaff-insane-import-ETA-logo.aiowaff-insane-logo-level5 {
+					background-color: #2ae05d;
+				}
+				.aiowaff-insane-import-ETA-logo.aiowaff-insane-logo-level6 {
+					background-color: #3498db;
+				}
+
+		.aiowaff-insane-import-parameters ul {
+			width: 40%;
+			height: 300px;
+			/*display: inline-block;*/
+		}
+			.aiowaff-insane-import-parameters li {
+				/*display: inline-block;*/
+				width: 46%;
+				border-top: 1px solid #e8e8e8;
+				margin-bottom: 25px;
+				position: relative;
+				height: 100px;
+				float: left;
+				margin-right: 2%;
+			}
+			.aiowaff-insane-import-parameters li:nth-child(1),
+			.aiowaff-insane-import-parameters li:nth-child(2) {
+				border-top: none;
+			}
+			.aiowaff-insane-import-parameters li:last-child {
+				/*border-top: 0px;
+				text-align: center;
+				padding-top: 15px;*/
+				position: relative;
+			}
+			.aiowaff-insane-import-parameters li select#aiowaff-to-category {
+				width: 92%;
+			}
+			.aiowaff-insane-import-parameters li span,
+			.aiowaff-insane-import-parameters li label {
+				color: #8f8f8f;
+				font-size: 12px;
+			}
+			.aiowaff-insane-import-parameters li output {
+				display: inline;
+				position: absolute;
+				bottom: 25%;
+				left: 87%;
+			}
+
+	#aiowaff-speedometer {
+		width: 300px;
+		height: 300px;
+		position: relative;
+		left: 10%;
+	}
+		#aiowaff-speedometer #aiowaff-speedometer-name {
+			display: block;
+			position: absolute;
+			left: 50%;
+			bottom: -36px;
+			margin-left: -70px;
+			border: 1px solid #bdc3c7;
+			width: auto;
+			text-transform: uppercase;
+			background: #ecf0f1;
+			color: #8c9899;
+			z-index: 999;
+			height: 20px;
+			font-size: 10px;
+			text-align: center;
+			line-height: 18px;
+			padding-left: 20px;
+			padding-right: 5px;
+		}
+			#aiowaff-speedometer #aiowaff-speedometer-name i {
+				display: block;
+				width: auto;
+				height: 20px;
+				position: absolute;
+				top: -1px;
+				left: -1px; 
+				background: #8c9899;
+				padding: 1px 6px 1px 6px;
+				font-style: normal;
+				font-weight: bold;
+				color: #fff;
+			}
+		#aiowaff-speedometer .speedometer-center {
+			position: relative;
+			width: 300px; 
+			height: 300px;
+			border-radius: 50%;
+			background: #e8e8e8;
+		}
+			#aiowaff-speedometer .speedometer-center .speedometer-center-middle {
+				position: absolute;
+				top: 25px;
+				left: 25px;
+				width: 250px; 
+				height: 250px;
+				z-index: 10;
+				background: #fff;
+				border-radius: 50%;
+			}
+			#aiowaff-speedometer .speedometer-step {
+				overflow: hidden;
+				position: absolute;
+				top: 0px; 
+				right: 50%; 
+				bottom: 50%; 
+				left: 0px;
+				transform-origin: 100% 100%;
+				transform: rotate(45deg) skewX(30deg);
+			}
+				#aiowaff-speedometer .speedometer-step:before {
+					box-sizing: border-box;
+					display: block;
+					border: solid 25px red;
+					width: 200%; 
+					height: 200%;
+					border-radius: 50%;
+					transform: skewX(-30deg);
+					content: '';
+				}
+				
+				#aiowaff-speedometer .speedometer-step:nth-child(2) {
+					transform: rotate(-52deg) skewX(30deg);
+				}
+				#aiowaff-speedometer .speedometer-step:nth-child(2):before {
+					border-color: #d43c47;
+				}
+				#aiowaff-speedometer .speedometer-step:nth-child(3) {
+					transform: rotate(0deg) skewX(30deg);
+				}
+				#aiowaff-speedometer .speedometer-step:nth-child(3):before {
+					border-color: #ef5d2b;
+				}
+				#aiowaff-speedometer .speedometer-step:nth-child(4) {
+					transform: rotate(60deg) skewX(30deg);
+				}
+				#aiowaff-speedometer .speedometer-step:nth-child(4):before {
+					border-color: #ff8a28;
+				}
+				#aiowaff-speedometer .speedometer-step:nth-child(5) {
+					transform: rotate(120deg) skewX(30deg);
+					z-index: 99;
+				}
+				#aiowaff-speedometer .speedometer-step:nth-child(5):before {
+					border-color: #a5da1d;
+				}
+				#aiowaff-speedometer .speedometer-step:nth-child(6) {
+					transform: rotate(170deg) skewX(30deg);
+				}
+				#aiowaff-speedometer .speedometer-step:nth-child(6):before {
+					border-color: #2ae05d;
+				}
+		
+		#aiowaff-speedometer #speedometer-markers {
+			position: absolute;
+			top: 10px;
+			left: 10px;
+			width: 230px; 
+			height: 230px;
+			z-index: 10;
+			background: #fff;
+			border-radius: 50%;
+		}
+		
+		#aiowaff-speedometer #speedometer-needle {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			width: 48px;
+			height: 48px;
+			border-radius: 50%;
+			z-index: 99;
+			margin: -24px 0px 0px -24px;
+			transform: rotate(-233deg);
+			box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.25);
+			transition: all 1.2s ease-in-out;
+		}
+			#aiowaff-speedometer .speedometer-needle-center {
+				border: 1px solid #c8c8c8;
+				position: absolute;
+				top: 0;
+				left: 0;
+				z-index: 30;
+				width: 48px;
+				height: 48px;
+				border-radius: 50%;
+				background-image: radial-gradient(center bottom, ellipse cover, #f3f3f3, #e0e0e0);
+			    background-image: -o-radial-gradient(center bottom, ellipse cover, #f3f3f3, #e0e0e0);
+			    background-image: -ms-radial-gradient(center bottom, ellipse cover, #f3f3f3, #e0e0e0);
+			    background-image: -moz-radial-gradient(center bottom, ellipse cover, #f3f3f3, #e0e0e0);
+			    background-image: -webkit-radial-gradient(center bottom, ellipse cover, #f3f3f3, #e0e0e0);
+			}
+			#aiowaff-speedometer #speedometer-needle:after {
+				content: "";
+				display: block;
+				width: 90px;
+				height: 6px;
+				position: absolute;
+				left: 30px;
+				top: 50%;
+				margin-top: -3px;
+				border: 1px solid #c8c8c8;
+				z-index: -10;
+				background: #d5d5d5;
+				border-top-right-radius: 14px;
+				border-bottom-right-radius: 14px;
+				box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.25);
+			}
+	.aiowaff-insane-logs {
+	}
+		.aiowaff-insane-logs li {
+			border: 1px solid #EDE7F2;
+			width: 100%;
+			margin: 5px 0px 10px 0px;
+			padding: 5px 0px 5px 0px;
+			position: relative;
+		}
+			.aiowaff-insane-logs li:before {
+				background: none repeat scroll 0 0 #BDC3C7;
+			    content: "";
+			    height: 33px;
+			    left: -1px;
+			    position: absolute;
+			    top: -1px;
+			    width: 40px;
+			}
+				.aiowaff-insane-logs li.aiowaff-log-error:before {
+					background-color: #e74c3c;
+				}
+				.aiowaff-insane-logs li.aiowaff-log-success:before {
+					background-color: #2ecc71;
+				}
+			.aiowaff-insane-logs li i.fa {
+				font-size: 18px;
+				width: 20px;
+				text-align: center;
+				color: #fff;
+				position: relative;
+				bottom: -2px;
+				margin: 0px 15px 0px 10px;
+			}
+			.aiowaff-insane-logs li span {
+				/*display: inline-block;*/
+				font-size: 11px;
+				margin: 0px 0px 0px 10px;
+			}
+			.aiowaff-insane-logs li span.aiowaff-insane-logs-msg {
+				display: inline-block;
+				margin-top: 5px;
+			}
+				.aiowaff-insane-logs li span.aiowaff-insane-logs-frame:before {
+					content: "[ ";
+					font-size: 14px;
+				}
+				.aiowaff-insane-logs li span.aiowaff-insane-logs-frame:after {
+					content: " ]";
+					font-size: 14px;
+				}
+			.aiowaff-insane-logs li p {
+				display: inline-block;
+				padding: 0px 0px 0px 15px;
+				margin: 0px 0px 0px 0px;
+			}
+	.aiowaff-grab-products {
+		padding: 10px 10px 10px 10px;
+	}
+		.aiowaff-grab-products label {
+			width: 100%;
+			display: block;
+			margin: 0px 0px 15px 0px;
+		}
+			.aiowaff-grab-products label span:first-child {
+				margin: 0px 0px 0px 0px;
+				font-size: 14px;
+				color: #9B9B9B;
+				width: 140px; 
+				display: inline-block;
+				text-transform: uppercase;
+			}
+				.aiowaff-grab-products label input[type=text] {
+					width: 80%; 
+				}
+				.aiowaff-grab-products label .aiowaff-form-note {
+					display: block;
+					width: 60%;
+					margin: 5px 0px 0px 144px;
+					font-size: 11px;
+					color: #ccc;
+				}
+		.aiowaff-grab-products .aiowaff-button {
+			border-radius: 3px;
+		    font-size: 14px;
+		    padding: 11px 13px;
+		    position: relative;
+		    margin-top: 10px;
+		    margin-left: 144px;
+		}
+
+ul.aiowaff-preloader {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    font-size: 0;
+    width: 30px;
+    position: absolute;
+    left: 50%;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+	ul.aiowaff-preloader li {
+	    display: inline-block;
+	    width: 6px;
+	    height: 18px;
+	    -moz-transform: translateY(0);
+	    -ms-transform: translateY(0);
+	    -webkit-transform: translateY(0);
+	    transform: translateY(0);
+	    animation: colorbars 333ms alternate infinite cubic-bezier(0.5, 0.3, 0, 0.5);
+	}
+	.aiowaff-preloader li:nth-of-type(1) {
+	    animation-delay: 111ms;
+	    background: #2773a5;
+	    border-radius: 3px 0 0 3px;
+	}
+	
+	.aiowaff-preloader li:nth-of-type(2) {
+	    animation-delay: 222ms;
+	    background: #2980b9;
+	}
+	
+	.aiowaff-preloader li:nth-of-type(3) {
+	    animation-delay: 333ms;
+	    background: #3498db;
+	}
+	
+	.aiowaff-preloader li:nth-of-type(4) {
+	    animation-delay: 444ms;
+	    background: #27ae60;
+	}
+	
+	.aiowaff-preloader li:nth-of-type(5) {
+	    animation-delay: 555ms;
+	    background: #2ecc71;
+	    border-radius: 0 3px 3px 0;
+	}
+	
+	@keyframes colorbars {
+	    to {
+	        -moz-transform: translateY(4px);
+	        -ms-transform: translateY(4px);
+	        -webkit-transform: translateY(4px);
+	        transform: translateY(4px);
+	    }
+	}
+
+.aiowaff-import-products {
+	padding: 10px 0 0px 10px;
+}
+	.aiowaff-import-products .aiowaff-content-bulk-asin {
+		height: 136px;
+		width: 548px;
+		margin-bottom: 20px;
+	}
+	.aiowaff-import-products h3 {
+		color: #9b9b9b;	
+		text-transform: uppercase;
+		font-weight: normal;
+	}
+	.aiowaff-import-products span {
+		display: inline-block;
+		margin-bottom: 30px;
+		margin-right: 20px;
+		margin-top: 15px;
+		color: #9b9b9b;	
+		font-size: 14px;
+	}
+	.aiowaff-delimiters > input {
+  		margin-left: 6px;
+	}
+	.aiowaff-delimiters > input[type="radio"] {
+		margin-left: 10px;
+		
+	}
+	.aiowaff-delimiters > label {
+	  margin-right: 50px;
+	}
+		.aiowaff-delimiters .aiowaff-addASINtoQueue {
+			background: none repeat scroll 0 0 #e67e22;
+			border: medium none;
+			border-radius: 3px;
+			color: #fff;
+			padding: 13px;
+			position: relative;
+			/*margin-bottom: 40px;
+			right: 370px;
+			top: 84px;*/
+		}
+		.aiowaff-delimiters .aiowaff-addASINtoQueue:hover {
+			cursor: pointer;
+			background: #D35400;
+		}
+		.aiowaff-delimiters #aiowaff-export-button {
+			background: none repeat scroll 0 0 #e67e22;
+			border: medium none;
+			border-radius: 3px;
+			color: #fff;
+			padding: 13px;
+			position: relative;
+			/*margin-bottom: 40px;
+			right: 370px;
+			top: 84px;*/
+			/*border-radius: 3px;
+		    font-size: 14px;
+		    padding: 11px 13px;
+		    position: relative;
+		    margin-top: 10px;
+		    margin-left: 144px;*/
+		}
+		.aiowaff-delimiters #aiowaff-export-button:hover {
+			cursor: pointer;
+			background: #D35400;
+		}
+		
+#aiowaff-loadprods-status {
+	border: 0px solid blue;
+	margin-top: 20px;
+}
+	#aiowaff-loadprods-status span span.aiowaff-insane-logs-frame:before {
+	    content: "[ ";
+	}
+	#aiowaff-loadprods-status span span.aiowaff-insane-logs-frame:after {
+	    content: " ]";
+	}
+.aiowaff-insane-status {
+	height: 500px;
+	overflow-y: auto;
+}
+.aiowaff-message {
+	padding: 1px;
+}
+.aiowaff-message.aiowaff-success, .aiowaff-message.aiowaff-error, .aiowaff-message.aiowaff-info {
+	background-image: none;	
+}
+
+	#aiowaff-export-asins {
+		height: 200px;
+	}
+		.aiowaff-insane-import-parameters li.aiowaff-import-products-button-box {
+			width: 100%;
+			border: none;
+		}
+		#aiowaff-import-products-button {
+			background: #2ecc71;
+			border: medium none;
+			border-radius: 3px;
+			color: #fff;
+			padding: 18px 15px 18px 24px;
+			font-size: 18px;
+			text-decoration: none;
+			
+		}
+			#aiowaff-import-products-button i {
+				display: inline-block;
+				border-radius: 100%;
+				padding: 6px 13px 6px 13px;
+				background: #fff;
+				color: #1a1a1a;
+				font-size: 22px;
+				text-shadow: none;
+				position: relative;
+				left: -5px;
+			}
+		#aiowaff-import-products-button:hover {
+			cursor: pointer;
+			background: #2980b9;
+		}
+
+/******************************************************/
+/* LOADING */
+#aiowaff-content .aiowaff-row-loading-marker {
+    left: 10px;
+    padding: 0;
+    position: relative;
+    top: 10px; /*-17px;*/
+}
+	#aiowaff-content .aiowaff-row-loading-marker .aiowaff-row-loading {
+		/*background-color: #484848;*/
+		/*background-color: rgba(255, 255, 255, 0.85);*/
+		/*background-color: rgba(207, 222, 247, 0.8);*/
+		background: rgba(11, 19, 23, 0.7) none repeat scroll 0 0;
+		/*color: #999;*/
+		color: #fff;
+		position: absolute;
+		top: 0px;
+		z-index: 1000;
+		left: 0px;
+		width: 100%;
+		height: 100%;
+		margin-left: -10px;
+		margin-top: -12px;
+		padding: 0px;
+	}
+	#aiowaff-content .aiowaff-row-loading-marker .aiowaff-row-loading .aiowaff-loading-text {
+		font-size: 11px;
+		text-align: center;
+		text-transform: uppercase;
+		height: auto;
+		min-height: 50px;
+		overflow: hidden;
+		overflow-y: auto;
+	}
+	
+/* progress bar */
+#aiowaff-content .aiowaff-meter {
+	text-align: left;
+	background-color: #f2eee3;
+	height: 20px;
+	padding: 1px 2px 1px 2px;
+	width: 100%;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0 1px 5px #bcbcbc inset, 0 1px 0 #c3b17e;
+	-webkit-box-shadow: 0 1px 5px #bcbcbc inset, 0 1px 0 #c3b17e;
+	box-shadow: 0 1px 5px #bcbcbc inset, 0 1px 0 #c3b17e;
+}
+
+#aiowaff-content .aiowaff-meter span {
+	display: inline-block;
+	height: 100%;
+	background-color: #777;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
+	-webkit-transition: width .4s ease-in-out;
+	-moz-transition: width .4s ease-in-out;
+	-ms-transition: width .4s ease-in-out;
+	-o-transition: width .4s ease-in-out;
+	transition: width .4s ease-in-out;
+}
+/* stripes */
+#aiowaff-content .aiowaff-meter span {
+	-webkit-background-size: 30px 30px;
+	-moz-background-size: 30px 30px;
+	background-size: 30px 30px;
+	background-image: -webkit-gradient(linear, left top, right bottom,
+	color-stop(.25, rgba(255, 255, 255, .15)), color-stop(.25, transparent),
+	color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .15)),
+	color-stop(.75, rgba(255, 255, 255, .15)), color-stop(.75, transparent),
+	to(transparent));
+	background-image: -webkit-linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,
+	transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,
+	transparent 75%, transparent);
+	background-image: -moz-linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,
+	transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,
+	transparent 75%, transparent);
+	background-image: -ms-linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,
+	transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,
+	transparent 75%, transparent);
+	background-image: -o-linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,
+	transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,
+	transparent 75%, transparent);
+	background-image: linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,
+	transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,
+	transparent 75%, transparent);
+}
+#aiowaff-content .aiowaff-meter.aiowaff-animate span {
+	-webkit-animation: animate-stripes 3s linear infinite;
+	-moz-animation: animate-stripes 3s linear infinite;
+}
+
+/******************************************************/
+/* IMPORT PRODUCTS */
+.aiowaff-iip-lightbox {
+	position: absolute;
+	z-index: 99999;
+	background: rgba( 11, 19, 23, 0.7 );
+	top: 0;
+	left: -1px;
+	right: 0;
+	bottom: 0;
+	z-index: 99998;
+}
+	.aiowaff-iip-lightbox .aiowaff-iip-in-progress-box {
+		position: absolute;
+		left: 50%;
+		top: 0.75%;
+		margin-left: -500px;
+		width: 1000px;
+		height: 480px;
+		background: #eceff0;
+		border-radius: 5px;
+	}
+		.aiowaff-iip-lightbox .aiowaff-iip-in-progress-box h1 {
+			width: 98%;
+			display: block;
+			padding: 8px 1% 10px 1%;
+			font-size: 16px;
+			background: #1c2a30;
+			color: #fff;
+			margin: 0px 0px 0px 0px;
+			border-top-left-radius: 5px;
+			border-top-right-radius: 5px;
+			position: relative;
+			top: -2px;
+			text-indent: 6px;
+			box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+		}
+		.aiowaff-iip-lightbox .aiowaff-iip-in-progress-box .aiowaff-iip-notice {
+			border: 0px solid red;
+			margin: -3px 0px 0px 0px;
+			background-image: none;
+			padding: 10px 15px 10px 15px;
+		}
+		.aiowaff-iip-lightbox .aiowaff-iip-in-progress-box .aiowaff-iip-details {
+			background-image: none;
+			width: 94%;
+			overflow: auto;
+			height: 82px; 
+			background: #eceff0;
+			margin: 0.5% 0% 1.5% 0%;
+			padding-left: 3%;
+			padding-right: 3%;
+		}
+			.aiowaff-iip-lightbox .aiowaff-iip-in-progress-box .aiowaff-iip-details table {
+				width: 90%;
+				height: 100%;
+				font-size: 18px;
+			}
+			.aiowaff-iip-lightbox .aiowaff-iip-in-progress-box .aiowaff-iip-details table th span {
+				font-size: 13px;
+				font-weight: normal;
+			}
+			.aiowaff-iip-lightbox .aiowaff-iip-in-progress-box .aiowaff-iip-details table th {
+				text-transform: uppercase;
+				text-align: center;
+			}
+			.aiowaff-iip-lightbox .aiowaff-iip-in-progress-box .aiowaff-iip-details table th:nth-child(1) {
+				width: 35%;
+				text-align: left;
+			}
+			.aiowaff-iip-lightbox .aiowaff-iip-in-progress-box .aiowaff-iip-details table th:nth-child(2) {
+				width: 45%;
+			}
+			.aiowaff-iip-lightbox .aiowaff-iip-in-progress-box .aiowaff-iip-details table th:nth-child(3) {
+				width: 20%;
+				text-align: right;
+			}
+			.aiowaff-iip-lightbox .aiowaff-iip-in-progress-box .aiowaff-iip-details table td {
+				font-weight: bold;
+				text-align: center;
+			}
+			.aiowaff-iip-lightbox .aiowaff-iip-in-progress-box .aiowaff-iip-details table td:nth-child(1) {
+				text-align: left;	
+			}
+			.aiowaff-iip-lightbox .aiowaff-iip-in-progress-box .aiowaff-iip-details table td:nth-child(3) {
+				text-align: right;
+			}
+			.aiowaff-iip-lightbox .aiowaff-iip-in-progress-box .aiowaff-iip-details table td:nth-child(1) span {
+				font-weight: normal;
+				font-size: 12px;
+				margin-left: 10px;
+			}
+		.aiowaff-iip-lightbox .aiowaff-iip-in-progress-box .aiowaff-iip-tail {
+			display: inline-block; 
+			overflow: auto;
+			padding-left: 2%;
+			width: 62.5%;
+			margin-top: 2%;
+		}
+			.aiowaff-iip-lightbox .aiowaff-iip-in-progress-box .aiowaff-iip-tail ul li {
+				text-align: left;
+				height: 104px;
+			}
+			.aiowaff-iip-lightbox .aiowaff-iip-in-progress-box .aiowaff-iip-tail ul li div.WZC-product-current {
+				font-size: 14px;
+	    		font-weight: bold;
+	    		margin: -12px 0 10px;
+	    		text-align: center;
+	    		text-transform: uppercase;
+	   		}
+
+				.aiowaff-iip-lightbox .aiowaff-iip-in-progress-box .aiowaff-iip-process-progress-bar {
+					overflow: hidden;
+					height: 50px;
+					background-color: #cfd8da;
+					-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+					box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+					margin-bottom: 0px;
+					width: 100%;
+					margin-top: 0px;
+					position: relative;
+				}
+					.aiowaff-iip-lightbox .aiowaff-iip-in-progress-box .aiowaff-iip-process-progress-bar .aiowaff-iip-process-progress-marker {
+						width: 0%;
+						height: 100%;
+						height: 50px;
+						overflow: hidden;
+						color: #fff;
+						text-align: center;
+						background-color: #32df80;
+						line-height: 50px;
+					}
+					.aiowaff-iip-lightbox .aiowaff-iip-in-progress-box .aiowaff-iip-process-progress-bar .aiowaff-iip-process-progress-marker {
+						background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+						background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+						background-size: 40px 40px;
+					}
+					.aiowaff-iip-lightbox .aiowaff-iip-in-progress-box .aiowaff-iip-process-progress-bar .aiowaff-iip-process-progress-text {
+						position: absolute;
+						top: 30%;
+						left: 1%;
+						height: 50px;
+						text-indent: 6px;
+					}
+					.aiowaff-iip-lightbox .aiowaff-iip-in-progress-box .aiowaff-iip-process-progress-bar .aiowaff-iip-process-progress-text span {
+						color: #1c2a30;
+						font-size: 16px;
+						margin-right: 25px;
+					}
+					.aiowaff-iip-lightbox .aiowaff-iip-in-progress-box .aiowaff-iip-process-progress-bar .aiowaff-iip-process-progress-text span > span {
+						font-weight: bold;
+					}
+				.aiowaff-iip-lightbox .aiowaff-iip-in-progress-box  .aiowaff-iip-process-progress-bar.im-images,
+				.aiowaff-iip-lightbox .aiowaff-iip-in-progress-box .aiowaff-iip-process-progress-bar.im-variations {
+					height: 30px;
+    				margin-top: 2px;
+    				background-color: #E1E5E6;
+				}
+					.aiowaff-iip-lightbox .aiowaff-iip-in-progress-box .aiowaff-iip-process-progress-bar.im-images .aiowaff-iip-process-progress-marker,
+					.aiowaff-iip-lightbox .aiowaff-iip-in-progress-box .aiowaff-iip-process-progress-bar.im-variations .aiowaff-iip-process-progress-marker {
+						height: 30px;
+						line-height: 30px;
+					}
+					.aiowaff-iip-lightbox .aiowaff-iip-in-progress-box .aiowaff-iip-process-progress-bar.im-images .aiowaff-iip-process-progress-marker {
+						background-color: #e67e22;
+					}
+					.aiowaff-iip-lightbox .aiowaff-iip-in-progress-box .aiowaff-iip-process-progress-bar.im-variations .aiowaff-iip-process-progress-marker {
+						background-color: #f1c40f;
+					}
+					.aiowaff-iip-lightbox .aiowaff-iip-in-progress-box .aiowaff-iip-process-progress-bar.im-images .aiowaff-iip-process-progress-text,
+					.aiowaff-iip-lightbox .aiowaff-iip-in-progress-box .aiowaff-iip-process-progress-bar.im-variations .aiowaff-iip-process-progress-text {
+						top: 15%;
+						height: 30px;
+					}
+					.aiowaff-iip-lightbox .aiowaff-iip-in-progress-box .aiowaff-iip-process-progress-bar.im-images .aiowaff-iip-process-progress-text span,
+					.aiowaff-iip-lightbox .aiowaff-iip-in-progress-box .aiowaff-iip-process-progress-bar.im-variations .aiowaff-iip-process-progress-text span {
+						font-size: 13px;
+					}
+		.aiowaff-iip-lightbox .aiowaff-iip-in-progress-box .aiowaff-iip-log {
+			display: inline-block;
+		    height: 133px;
+		    overflow-x: hidden;
+		    overflow-y: auto;
+		    position: absolute;
+		    width: 34%;
+		    margin-top: 2%;
+		}
+/*			
+			.aiowaff-iip-lightbox .aiowaff-iip-in-progress-box .aiowaff-iip-process-headline {
+				background: #1c2a30;
+				padding: 6px 0px 6px 0px;
+				margin: 20px 0px 0px 0px;
+				width: 100%;
+				text-indent: 10px; 
+				display: block;
+				color: #fff;
+				font-size: 14px;
+				border-top: 1px solid #fff;
+			}
+			.aiowaff-iip-lightbox .aiowaff-iip-in-progress-box .aiowaff-iip-debug-info {
+				border-spacing: 0;
+    			border-collapse: collapse;
+    			border-bottom: 1px solid #DCDCDC;
+			}
+				.aiowaff-iip-lightbox .aiowaff-iip-in-progress-box .aiowaff-iip-debug-info td {
+					padding-left: 10px;
+					padding-right: 10px;
+				}
+				.aiowaff-iip-lightbox .aiowaff-iip-in-progress-box .aiowaff-iip-debug-info td:last-child {
+					font-weight: bold;
+				}
+		.aiowaff-iip-lightbox .aiowaff-iip-in-progress-box .aiowaff-iip-log {
+			width: 99%;
+			height: 172px;  
+			margin: 10px 0px 0px 0px;
+			overflow: auto;
+			padding-left: 1%;
+		}
+*/
+
+/*
+ * Octomber 2015 - new plugin functions
+ */
+.aiowaff-provider-line {
+    bottom: 0;
+    color: #fff;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+    height: 12%;
+    left: 0;
+    line-height: 13px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+.aiowaff-provider-line.aiowaff-provider-amazon {
+	background-color: #8e44ad;
+}
+.aiowaff-provider-line.aiowaff-provider-alibaba {
+	background-color: #e74c3c;
+}
+
+.aiowaff-provider-line.aiowaff-provider-ebay {
+	background-color: #3498db;
+}
+
+.aiowaff-insane-panel-headline.aiowaff-check-all,
+.aiowaff-insane-panel-headline.aiowaff-operation-message {
+	position: relative;
+}
+	.aiowaff-insane-panel-headline.aiowaff-check-all > span,
+	.aiowaff-insane-panel-headline.aiowaff-operation-message > span {
+		position: absolute;
+		right:0px;
+		top:10px;
+	}
+		.aiowaff-insane-panel-headline.aiowaff-check-all > span label {
+			vertical-align: top;
+		}
+		
+		
+		
+
+
+.aiowaff-provider-validation-message {
+	background-color: #e74c3c;
+	border: 1px solid #c0392b;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 79%;
+    display: block;
+}
